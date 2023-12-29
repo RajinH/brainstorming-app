@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+.NavBar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.ExperienceContainer {
+  margin-inline: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
