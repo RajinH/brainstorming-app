@@ -7,7 +7,7 @@ const initialNodes = [
 ];
 const initialEdges = [{ id: "e1-2", source: "1", target: "2" }];
 
-export const Mindmap = () => {
+export const MindMap = () => {
   return (
     <div style={{ height: "50vh", border: "solid" }}>
       <ReactFlow nodes={initialNodes} edges={initialEdges} />

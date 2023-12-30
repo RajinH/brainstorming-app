@@ -2,14 +2,34 @@
   margin: 0;
 }
 
-.NavBar {
+.Navbar {
   background-color: black;
   color: white;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavbarButtonGroup {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
 }
 
 .ExperienceContainer {
   margin-inline: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.Button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: fit-content;
 }
